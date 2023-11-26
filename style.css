@@ -131,3 +131,25 @@ p {
 }
 
 /*  */
+
+
+@keyframes bounce-horizontal {
+  0%, 100% {
+      transform: translateX(0);
+  }
+  25% {
+      transform: translateX(-20px);
+  }
+  50% {
+      transform: translateX(20px);
+  }
+  75% {
+      transform: translateX(-10px);
+  }
+}
+
+.bouncing-text-horizontal {
+  animation: bounce-horizontal 1s infinite;
+}
+
+
