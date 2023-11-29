@@ -1,0 +1,13 @@
+.name-container {
+	perspective: 1000px; /* Increased perspective for a more pronounced effect */
+	text-align: center;
+}
+
+#tawan_name {
+	display: inline-block;
+	transform-style: preserve-3d;
+	transition: transform 0.1s;
+	font-size: 2em;
+	color: #333; /* Text color */
+	text-shadow: 1px 1px 0 #000, 2px 2px 0 #000, 3px 3px 0 #000, 4px 4px 0 #000; /* Multiple shadows for thickness */
+}
