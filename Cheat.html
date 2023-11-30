@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind CSS Cheat Sheet</title>
+    <!-- Import Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .header {
+            margin-bottom: 20px;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            padding: 20px;
+        }
+        .box {
+            border: 2px solid #ddd;
+            padding: 15px;
+            border-radius: 10px;
+        }
+        .code {
+            background-color: #f9f9f9;
+            border-left: 3px solid #38bdf8;
+            padding: 5px 10px;
+            margin: 10px 0;
+            font-family: monospace;
+        }
+        .result {
+            margin-top: 5px;
+            margin-bottom: 35px;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container">
+        <!-- Add your name to our website -->
+        <div class="box">
+            <h2 class="header text-2xl font-bold">Add your name to our website with:</h2>
+            <div class="code">&lt;p&gt;.... &lt;/p&gt;</div>
+            <div class="code">&lt;p&gt;Naris&lt;/p&gt;</div>
+            
+            <p>Naris</p>
+        </div>
+
+        <!-- Style your name -->
+        <div class="box">
+            <h2 class="header text-2xl font-bold">Style your name</h2>
+
+            <!-- Make your text bold -->
+            <h3>Make your text bold</h3>
+            <div class="code">&lt;p class=”font-bold”&gt;Naris&lt;/p&gt;</div>
+            <div class="result"><p class="font-bold">Naris</p></div>
+
+            <!-- Change text color -->
+            <h3>Change text color</h3>
+            <div class="code">&lt;p class=”text-blue-400”&gt;Naris&lt;/p&gt;</div>
+            <div class="result"><p class="text-blue-400">Naris</p></div>
+
+            <!-- Make text italic -->
+            <h3>Make text italic</h3>
+            <div class="code">&lt;p class=”italic”&gt;Naris&lt;/p&gt;</div>
+            <div class="result"><p class="italic">Naris</p></div>
+
+            <!-- Change text size -->
+            <h3>Change text size</h3>
+            <div class="code">&lt;p class=”text-lg”&gt;Naris&lt;/p&gt;</div>
+            <div class="result"><p class="text-lg">Naris</p></div>
+        </div>
+
+        <!-- Additional Styles -->
+        <div class="box">
+            <h2 class="header text-2xl font-bold">Additional Styles</h2>
+
+            <!-- Rotation -->
+            <h3>Rotation</h3>
+            <div class="code">&lt;p class=”rotate-90”&gt;Naris&lt;/p&gt;</div>
+            <div class="result"><p class="w-fit rotate-90">Naris</p></div>
+
+            <!-- Drop Shadow -->
+            <!-- <h3>Drop Shadow</h3>
+            <div class="code">&lt;p class=”drop-shadow”&gt;Naris&lt;/p&gt;</div>
+            <div class="result"><p class="text-shadow-lg">Naris</p></div> -->
+        </div>
+    </div>
+
+    
+</body>
+</html>
