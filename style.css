@@ -167,13 +167,3 @@ p {
 .bouncing-text-horizontal {
   animation: bounce-horizontal 1s infinite;
 }
-
-
-
-
-
-.Jade {
-  color: violet;
-  font-size: 50px;
-  font-style: italic;
-}
