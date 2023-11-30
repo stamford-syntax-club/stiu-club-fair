@@ -1,169 +1,107 @@
 body {
-  font-family: "Roboto", sans-serif;
-  background-color: #f8f8f8;
-  margin: 0;
-  padding: 0;
-  overflow: auto;
+	font-family: "Roboto", sans-serif;
+	background-color: #f8f8f8;
+	margin: 0;
+	padding: 0;
+	overflow: auto;
 }
 
 header {
-  background-color: #2c3e50;
-  color: #ecf0f1;
-  text-align: center;
-  padding: 20px;
+	background-color: #2c3e50;
+	color: #ecf0f1;
+	text-align: center;
+	padding: 20px;
 }
 
 #content {
-  margin: 20px;
-  padding: 20px;
-  background-color: #ecf0f1;
-  border-radius: 10px;
-  text-align: center;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	margin: 20px;
+	padding: 20px;
+	background-color: #ecf0f1;
+	border-radius: 10px;
+	text-align: center;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 p {
-  font-size: 18px;
-  line-height: 1.6;
-  color: #333;
+	font-size: 18px;
+	line-height: 1.6;
+	color: #333;
 }
 
 /* Add this to your existing CSS */
 
 .card-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-top: 20px; /* Adjust as needed */
-  max-width: 400px; /* Adjust the maximum width of the container */
-  margin-left: auto;
-  margin-right: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-top: 20px; /* Adjust as needed */
+	max-width: 400px; /* Adjust the maximum width of the container */
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .card {
-  border: 1px solid #ddd;
-  padding: 15px;
-  margin: 10px;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  text-align: center;
-  width: 50%;
-  box-sizing: border-box;
-  overflow: hidden;
+	border: 1px solid #ddd;
+	padding: 15px;
+	margin: 10px;
+	border-radius: 8px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	text-align: center;
+	width: 50%;
+	box-sizing: border-box;
+	overflow: hidden;
 }
 
 .card:hover {
-  transform: translateY(-5px);
-  transition: transform 0.2s ease-in-out;
+	transform: translateY(-5px);
+	transition: transform 0.2s ease-in-out;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* nayhtetkyaw's */
 
 .nhk {
-  text-transform: uppercase;
-  background-image: linear-gradient(
-    -225deg,
-    #231557 0%,
-    #67438f 29%,
-    rgb(194, 161, 15) 67%,
-    #0084ff 100%
-  );
+	text-transform: uppercase;
+	background-image: linear-gradient(-225deg, #231557 0%, #67438f 29%, rgb(194, 161, 15) 67%, #0084ff 100%);
 
-  background-size: auto auto;
-  background-clip: border-box;
-  background-size: 200% auto;
-  color: #fff;
-  background-clip: text;
-  text-fill-color: transparent;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: textclip 3s linear infinite;
-  display: inline-block;
-  border-top: 1px solid #000;
-  border-bottom: 1px solid #000;
+	background-size: auto auto;
+	background-clip: border-box;
+	background-size: 200% auto;
+	color: #fff;
+	background-clip: text;
+	text-fill-color: transparent;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: textclip 3s linear infinite;
+	display: inline-block;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
 }
 
 @keyframes textclip {
-  to {
-    background-position: 200% center;
-  }
+	to {
+		background-position: 200% center;
+	}
 }
 
 /*  */
 
-
 @keyframes bounce-horizontal {
-  0%, 100% {
-      transform: translateX(0);
-  }
-  25% {
-      transform: translateX(-20px);
-  }
-  50% {
-      transform: translateX(20px);
-  }
-  75% {
-      transform: translateX(-10px);
-  }
+	0%,
+	100% {
+		transform: translateX(0);
+	}
+	25% {
+		transform: translateX(-20px);
+	}
+	50% {
+		transform: translateX(20px);
+	}
+	75% {
+		transform: translateX(-10px);
+	}
 }
 
 .bouncing-text-horizontal {
-  animation: bounce-horizontal 1s infinite;
+	animation: bounce-horizontal 1s infinite;
 }
