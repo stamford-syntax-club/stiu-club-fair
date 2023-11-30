@@ -12,5 +12,7 @@ document.addEventListener("mousemove", (e) => {
 	const rotateY = (deltaX / centerX) * 60; // adjust for sensitivity
 	const rotateX = (-deltaY / centerY) * 60; // adjust for sensitivity
 
-	name.style.transform = `rotate3d(${rotateX}, ${rotateY}, 0, ${Math.sqrt(rotateX * rotateX + rotateY * rotateY)}deg)`;
+	name.style.transform = `rotate3d(${rotateX}, ${rotateY}, 0, ${Math.sqrt(
+		rotateX * rotateX + rotateY * rotateY,
+	)}deg)`;
 });
