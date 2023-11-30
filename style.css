@@ -113,6 +113,7 @@ p {
 
 
 
+
 /* nayhtetkyaw's */
 
 .nhk {
@@ -168,3 +169,11 @@ p {
 }
 
 
+
+
+
+.Jade {
+  color: violet;
+  font-size: 50px;
+  font-style: italic;
+}
